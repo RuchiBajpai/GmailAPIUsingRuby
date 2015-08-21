@@ -8,8 +8,8 @@ require 'fileutils'
 # Need to install this 'google-api-client'
 APPLICATION_NAME = 'Gmail API Quickstart'
 CLIENT_SECRETS_PATH = 'client_secret.json'
-CREDENTIALS_PATH = File.join(Dir.pwd, '.credentials',"gmail-quickstart.json")
-SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
+CREDENTIALS_PATH = File.join(Dir.pwd, '.credentials',"gmail-api-credentials.json")
+SCOPE = 'https://mail.google.com/'
 ENV['SSL_CERT_FILE'] = '/usr/local/etc/openssl/certs/cacert.pem'
 ##
 # Ensure valid credentials, either by restoring from the saved credentials
