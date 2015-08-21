@@ -26,3 +26,12 @@ This is a sample project in ruby to read the emails from your gmail inbox using 
 **Download the Secret Json file.**
 
 ![alt tag](https://github.com/RuchiBajpai/GmailAPIUsingRuby/blob/master/docs/download_the_secret_key_json.png)
+
+**Rename the downloaded json file as "client_secret.json" and place it in the home directory.**
+
+**Need to download this certificate**
+curl -O http://curl.haxx.se/ca/cacert.pem
+
+**and have to place this certificate at**
+'/usr/local/etc/openssl/certs/'
+
