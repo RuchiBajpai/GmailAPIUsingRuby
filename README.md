@@ -3,7 +3,7 @@ This is a sample project in ruby to read the emails from your gmail inbox using 
 
 # Set-up Steps
 
-# 1. Got to https://console.developers.google.com
+1. Got to https://console.developers.google.com
 
 2. Create a new project
 
